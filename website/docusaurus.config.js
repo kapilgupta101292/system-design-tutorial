@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: 'Curated guide to help you master system design concepts',
   url: 'https://systemdesigntutorial.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'kapilgupta101292', // Usually your GitHub org/user name.
@@ -47,7 +47,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/logo.png',
         },
         items: [
-        {href: '/introduction', label: 'Getting Started', position: 'right'},
+        {href: '/', label: 'Getting Started', position: 'right'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/kapilgupta101292/system-design-tutorial',
@@ -64,7 +64,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },
