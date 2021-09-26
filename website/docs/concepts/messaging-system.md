@@ -1,12 +1,10 @@
 ---
-id: messaging-systems
-title: Messaging Systems
-sidebar_label: Messaging Systems
+id: messaging-system
+title: Messaging System
+sidebar_label: Messaging System
 ---
 
-## Messaging Systems
-
-Messaging Systems are a common approach to transfer data between systems and applications. A producer generates a message containing some information that is transmitted to the consumers.
+Messaging System is a common approach to transfer data between systems and applications. A producer generates a message containing some information that is transmitted to the consumers.
 
 We can do this via direct communication via TCP connection between producer and consumer. However, such a system allows communication between exactly one producer and one consumer. Also what happens if producers are producing messages faster than the consumers can consume, And what happens if consumer nodes go down?
 
@@ -66,7 +64,7 @@ What happens if our system is under heavy sustained load, There are large amount
 
 Here is an interesting read on the this topic : 
 
-[apply back pressure](https://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html)
+[Apply back pressure](https://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html)
 
 
 ### Acknowledgement and redelivery
