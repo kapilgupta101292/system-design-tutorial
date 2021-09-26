@@ -1,3 +1,8 @@
+---
+id: url-shortening
+title: Design URL Shortener
+sidebar_label: Design URL Shortener
+---
 URL shortening Service creates a compact version of a long URL called tinyURL or shortURL. These URL's can be shared as an alias to the long URL and when someone hits this shortURL they are redirected to the original long URL. Benefits of short URL includes more readablity, convenience to the user and save space. They are much more user friendly when displayed on screen, shared, or tweeted.
 
 URL shortening is also used for tracking and analytics purposes for performance measurements of different campaigns and affiliates. Some URL shortening services also allow yout to provide custom domains to promote your own brand.
