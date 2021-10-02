@@ -49,12 +49,12 @@ This scheme is well suited for write-heavy applications, However, this poses a h
 
 Since caches can hold only a portion of data, we need to discard the data that is no more useful, How do we determine what data is useful and what is not? Following are the most popular cache eviction policies:
 
---**Least Recently Used (LRU)**: Removes the items which have least recently used or in other words the items which were used recently are kept. Most popular eviction policy as it provides good performance while maintaining simplicity.
---**Most Recently Used (MRU)**: Opposite of LRU, this policy discards the most recent items first.
---**Least Frequently Used (LFU)**: Discards based upon the frequency of items and items with less frequency are evicted in comparison to more frequent ones.
---**First In First Out (FIFO)**: One of the simpler strategies, where the item which was used first goes out first, like in a queue.
---**Last In First Out (LIFO)**: The items which were used last go out first, like a stack.
---**Random Replacement (RR)**: This eviction policy discards a random item.
+-- **Least Recently Used (LRU)**: Removes the items which have least recently used or in other words the items which were used recently are kept. Most popular eviction policy as it provides good performance while maintaining simplicity.
+-- **Most Recently Used (MRU)**: Opposite of LRU, this policy discards the most recent items first.
+-- **Least Frequently Used (LFU)**: Discards based upon the frequency of items and items with less frequency are evicted in comparison to more frequent ones.
+-- **First In First Out (FIFO)**: One of the simpler strategies, where the item which was used first goes out first, like in a queue.
+-- **Last In First Out (LIFO)**: The items which were used last go out first, like a stack.
+-- **Random Replacement (RR)**: This eviction policy discards a random item.
 
 Besides these classical approaches, there are some modern eviction policies that provide better hit rates and concurrencies like LIRS, Window-TinyLFU, and ARC. More information can be found at this [link](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
 
