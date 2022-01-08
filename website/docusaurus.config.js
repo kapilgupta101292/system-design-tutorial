@@ -52,6 +52,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 							position: 'right',
 						},
 						{
+							href: '/contributing',
+							label: 'Contribute',
+							position: 'right',
+						},
+						,
+						{
 							href: 'https://github.com/kapilgupta101292/system-design-tutorial',
 							label: 'GitHub',
 							position: 'right',
@@ -71,6 +77,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 								{
 									label: 'SDE Interview Preparation',
 									to: '/sde-interview-prep',
+								},
+								{
+									label: 'Contribute',
+									to: '/contributing',
 								},
 							],
 						},
