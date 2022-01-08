@@ -56,7 +56,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 							label: 'Contribute',
 							position: 'right',
 						},
-						,
 						{
 							href: 'https://github.com/kapilgupta101292/system-design-tutorial',
 							label: 'GitHub',
