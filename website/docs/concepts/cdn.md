@@ -37,7 +37,7 @@ Though there are so many advantages of using CDN, we need to be careful while us
 	
 - **Need** - Do we need a CDN?, In case our content is not accessed frequently or refreshed too quickly, then CDN might not be of any use.
 
-- **Cost** - The major CDN providers mentioned in the introduction section have pricing based on the number of requests or the amount of data in/out. Hence we should be careful about the cost to prevent massive billings. Also, we should 
+- **Cost** - The major CDN providers mentioned in the introduction section have pricing based on the number of requests or the amount of data in/out. Hence we should be careful about the cost to prevent massive billings.
 
 - **Fallback** - Clients should be coded in such a way that if CDN is not available, they should be able to connect to backend servers for the content.
 
