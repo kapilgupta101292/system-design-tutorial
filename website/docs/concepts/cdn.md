@@ -32,8 +32,8 @@ Similar to the static content delivery, nowadays CDN are also capable of serving
 
 Though there are so many advantages of using CDN, we need to be careful while using a CDN and configuring it. Here are some of the aspects we should keep in mind.
 	
-**Need**: Do we really need a CDN?, In case our content is not accessed frequently or refreshed too quickly, then CDN might not be of any use.
-**Cost** : The major CDN providers mentioned in the introduction section have pricing based on the number of requests or the amount of data in/out. Hence we should be careful about the costing to prevent massive billings. Also we should 
- **Fallback** : Clients should be coded in such a way that if cdn are not available, they should be able to connect to backend servers for the content.
-**Cache Expiry**: We should be mindful while setting the expiry for the content, Have too long of an expiry, content might be stale. Have too short of Expiry and there might be unnecessary reloading of the content from the origin servers to the CDN.
+**Need** - Do we really need a CDN?, In case our content is not accessed frequently or refreshed too quickly, then CDN might not be of any use.
+**Cost** - The major CDN providers mentioned in the introduction section have pricing based on the number of requests or the amount of data in/out. Hence we should be careful about the costing to prevent massive billings. Also we should 
+**Fallback** - Clients should be coded in such a way that if cdn are not available, they should be able to connect to backend servers for the content.
+**Cache Expiry** - We should be mindful while setting the expiry for the content, Have too long of an expiry, content might be stale. Have too short of Expiry and there might be unnecessary reloading of the content from the origin servers to the CDN.
 
