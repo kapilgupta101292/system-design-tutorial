@@ -1,7 +1,7 @@
- ---
+---
 id: websockets
-title: Websockets
-sidebar_label: Websockets
+title: WebSockets
+sidebar_label: WebSockets
 ---
 
 Websocket is essentially a transport layer built on the top of the TCP/IP Protocol. and provides a persistent bidirectional communication channel between a client and a server.
