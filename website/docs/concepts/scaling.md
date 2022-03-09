@@ -15,6 +15,9 @@ The performance of a system can be measured using [throughput](https://www.syste
 
 ## Type of Scaling
 
+![Scaling](/img/scaling.png)
+
+
 ### Vertical Scaling (Scaling Up)
 
 Increasing the capacity to the current machine by improving its specifications like attaching more RAM, adding better CPU, upgrading HDD to SSD or adding more storage capacity, increasing network bandwidth etc.
