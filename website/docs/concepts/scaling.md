@@ -20,25 +20,25 @@ The performance of a system can be measured using [throughput](https://www.syste
 Increasing the capacity to the current machine by improving its specifications like attaching more RAM, adding better CPU, upgrading HDD to SSD or adding more storage capacity, increasing network bandwidth etc.
 
 #### Advantages: 
-Architecture - Relatively simple, Less issues to worry about like inter service dependencies, network partitions etc.
-Maintenance - Easy to maintain due to less moving parts.
+- Architecture - Relatively simple, Less issues to worry about like inter service dependencies, network partitions etc.
+- Maintenance - Easy to maintain due to less moving parts.
 
 #### Disadvantages:
-Cost - Adding more resources leads to exponential increase in cost.
-Scope - Limited scope of Scaling due to physical limitation of size.
-Downtime - Risk of fault or complete downtime due to hardware failure. 
+- Cost - Adding more resources leads to exponential increase in cost.
+- Scope - Limited scope of Scaling due to physical limitation of size.
+- Downtime - Risk of fault or complete downtime due to hardware failure. 
 
 ### Horizontal Scaling (Scaling Out)
 Adding more machines and distributing the load among them. 
 
 #### Advantages: 
-Cost - Cost efficient due to the use of commodity hardware.
-Scope - Theoretically unlimited scope of scaling.
-Resilience and Fault Tolerant - Due to redundancy, if few nodes go down, other nodes take up the requests.
+- Cost - Cost efficient due to the use of commodity hardware.
+- Scope - Theoretically unlimited scope of scaling.
+- Resilience and Fault Tolerant - Due to redundancy, if few nodes go down, other nodes take up the requests.
 
 #### Disadvantages:
-Architecture - Complex to design, due to fallacies of distributed systems.
-Maintenance - Difficult to observe and maintain due to moving parts.
+- Architecture - Complex to design, due to fallacies of distributed systems.
+- Maintenance - Difficult to observe and maintain due to moving parts.
 
 ### Which approach is the best ?
 
