@@ -15,7 +15,9 @@ The performance of a system can be measured using [throughput](https://www.syste
 
 ## Type of Scaling
 
-### Vertical Scaling (Scaling Up) - Increasing the capacity to the current machine by improving its specifications like attaching more RAM, adding better CPU, upgrading HDD to SSD or adding more storage capacity, increasing network bandwidth etc.
+### Vertical Scaling (Scaling Up)
+
+Increasing the capacity to the current machine by improving its specifications like attaching more RAM, adding better CPU, upgrading HDD to SSD or adding more storage capacity, increasing network bandwidth etc.
 
 #### Advantages: 
 Architecture - Relatively simple, Less issues to worry about like inter service dependencies, network partitions etc.
@@ -26,7 +28,8 @@ Cost - Adding more resources leads to exponential increase in cost.
 Scope - Limited scope of Scaling due to physical limitation of size.
 Downtime - Risk of fault or complete downtime due to hardware failure. 
 
-### Horizontal Scaling (Scaling Out) - Adding more machines and distributing the load among them. 
+### Horizontal Scaling (Scaling Out)
+Adding more machines and distributing the load among them. 
 
 #### Advantages: 
 Cost - Cost efficient due to the use of commodity hardware.
