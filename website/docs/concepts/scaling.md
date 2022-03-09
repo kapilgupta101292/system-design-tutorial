@@ -1,3 +1,9 @@
+---
+id: scaling
+title: Scaling
+sidebar_label: Scaling
+---
+
 Scaling means that increasing the system capacity to cope up with increased load for example number of requests or handling more data. 
 
 ## Need for Scaling
