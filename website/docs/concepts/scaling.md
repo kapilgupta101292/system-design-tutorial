@@ -4,11 +4,14 @@ title: Scaling
 sidebar_label: Scaling
 ---
 
-Scaling means that increasing the system capacity to cope up with increased load for example number of requests or handling more data. 
+Scaling means increasing the system capacity to cope up with increased load for example number of requests or handling more data. 
 
 ## Need for Scaling
 
-if our website is currently handling 100 requests/min and suddenly the traffic increases to 1000 requests/min, even though our system might be able to handle the same the traffic but due to increased load, the performance might become unacceptable, hence we will need to scale our system to be able to support that additional load with acceptable performance.
+If our system is currently handling 100 requests/min and suddenly the traffic increases to 1000 requests/min, even though our system might be able to handle the same the traffic but due to increased load, the performance might become unacceptable, hence we will need to scale our system to be able to support that additional load with acceptable performance.
+
+The performance of a system can be measured using [throughput](https://www.systemdesigntutorial.com/glossary#throughput)
+ and [response time](https://www.systemdesigntutorial.com/glossary##response-time). 
 
 ## Type of Scaling
 
